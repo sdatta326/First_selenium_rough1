@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>  
+<listener class-name="secondpackage.Listeners"/>  
+</listeners>  
+<!-- <test name="Test1">
+<classes>
+<class name="secondpackage.Class1">
+<methods>
+<exclude name="B">
+</exclude>
+</methods>
+</class>
+</classes>
+</test> -->
+<!--<test name="Test2">-->
+<test name="Listeners_Program">
+<!-- <parameter name="a" value="10"></parameter>
+<parameter name="b" value="6"></parameter> -->
+<classes>
+<!-- <class name="secondpackage.TestPara"></class> -->
+<class name="secondpackage.checkLisener"></class>
+</classes>
+</test>
+</suite>
+
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>  
+<listener class-name="secondpackage.Listeners"/>  
+</listeners>  
+<test name="Listeners_Program">
+<classes>
+<class name="secondpackage.checkLisener"></class>
+</classes>
+</test>
+</suite>
+
+ -->

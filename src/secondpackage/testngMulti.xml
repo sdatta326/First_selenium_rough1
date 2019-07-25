@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" thread-count="3" parallel="methods">
+<test name="testGuru">
+<classes>
+<class name="secondpackage.TestGuru99MultipleSession">
+</class>
+</classes>
+</test>
+
+<test name="testGuru2">
+<classes>
+<class name="secondpackage.MultiSession2">
+</class>
+</classes>
+</test>
+</suite>
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods">
+<tests>
+<test name="folder1">
+<class name="secondpackage.TestGuru99MultiplrSession">
+</class>
+</test>
+</tests>
+</suite> -->

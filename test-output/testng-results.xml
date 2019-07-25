@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69" started-at="2019-07-19T04:06:37Z" finished-at="2019-07-19T04:06:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69" started-at="2019-07-19T04:06:37Z" finished-at="2019-07-19T04:06:37Z">
+      <class name="secondpackage.testNGPRIORITY">
+        <test-method status="PASS" signature="C()[pri:0, instance:secondpackage.testNGPRIORITY@6d8a00e3]" name="C" duration-ms="11" started-at="2019-07-19T04:06:37Z" finished-at="2019-07-19T04:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C -->
+        <test-method status="PASS" signature="D()[pri:0, instance:secondpackage.testNGPRIORITY@6d8a00e3]" name="D" duration-ms="2" started-at="2019-07-19T04:06:37Z" finished-at="2019-07-19T04:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D -->
+        <test-method status="PASS" signature="A()[pri:0, instance:secondpackage.testNGPRIORITY@6d8a00e3]" name="A" duration-ms="3" started-at="2019-07-19T04:06:37Z" finished-at="2019-07-19T04:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="PASS" signature="B()[pri:0, instance:secondpackage.testNGPRIORITY@6d8a00e3]" name="B" duration-ms="2" started-at="2019-07-19T04:06:37Z" depends-on-methods="secondpackage.testNGPRIORITY.D" finished-at="2019-07-19T04:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+      </class> <!-- secondpackage.testNGPRIORITY -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
